@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IG - Felipe Odoni</title>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+<form method="POST" enctype="multipart/form-data" id="send-orders-form">
+    Connection string:  <input type="text" name="conn" value="tcp://localhost:61616"/><br/>
+    User:               <input type="text" name="user" value="admin"/><br/>
+    Password:           <input type="text" name="password" value="admin"/><br/>
+    Broker name:        <input type="text" name="broker" value="interview-1"/><br/>
+    Queue:              <input type="text" name="queue" value="Queue"/><br/>
+    <br/>
+    Orders file: <input type="file" name="file"/><br/><br/>
+
+    <input type="submit" value="Send Orders" id="btn-submit"/>
+</form>
+<br><br>
+<div id="result"></div>
+</body>
+</html>
