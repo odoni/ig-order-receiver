@@ -1,5 +1,5 @@
 # ig-order-receiver
-The goal of this service is to provide a simple interface that allows users to upload an order file in XML format. The interface also provides a visualizer to the queue status.
+The goal of this service is to provide a simple interface that allows users to upload an order file in XML format.
 
 ## Instructions to run
 Create a runnable and deployable jar file
